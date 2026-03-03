@@ -1,0 +1,5 @@
+print ('colocar valor em uma variavel em tempo de execução')
+x = int (input('digite sua idade: '))
+print ('sua idade é:''anos')
+print (type(x))
+print ('com mais 10 anos voce teria:',x + 10, 'anos')
