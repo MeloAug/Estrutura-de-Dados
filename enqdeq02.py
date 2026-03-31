@@ -1,7 +1,7 @@
 from collections import deque
-fila = ([10, 20, 30])
+fila = deque ([10, 20, 30])
 i = 0
-while i < 5:
+while i < 3:
     x = int(input("Digite um valor: "))
     fila.append(x)
     i+=1
